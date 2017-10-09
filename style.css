@@ -42,3 +42,30 @@ color: #d5d5d5;
     border-radius: 4px;
     border: 2px solid #FFFFFF;
 }
+.icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+.container {
+    margin: 4% auto;
+}
+
+.heading-bootstrap{
+    font-size: 18px;
+}
+
+.bootstrap-txt {
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    .icon {
+        max-width: 150px;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+}
