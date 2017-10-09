@@ -46,6 +46,10 @@ color: #d5d5d5;
     max-width: 200px;
     margin: 1% auto;
 }
+.sign-responsive {
+    max-width: 250px;
+    margin: auto;
+}
 .container {
     margin: 4% auto;
 }
