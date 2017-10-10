@@ -51,15 +51,41 @@ color: #d5d5d5;
     margin: auto;
 }
 .container {
-    margin: 4% auto;
+    margin: 6% auto;
 }
 
 .heading-bootstrap{
     font-size: 18px;
+    font-weight: 600;
 }
 
 .bootstrap-txt {
     text-align: justify;
+}
+.link a {
+    text-decoration: none;
+    font-weight: 600;
+}
+footer {
+    width: 100%;
+    background: #5E4485;
+    padding: 3%;
+    color: #FFFFFF;
+}
+.contact-us {
+    margin-bottom: 20px;
+}
+.learn-more {
+    text-align: center;
+}
+.fa {
+    padding: 14px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.fa:hover {
+    text-decoration: none;
+    color: #D5D5D5;
 }
 
 @media (max-width: 600px) {
@@ -71,5 +97,21 @@ color: #d5d5d5;
     }
     h2 {
         font-size: 1.7em;
+    }
+}
+@media (max-width: 694px) {
+    .carousel-caption {
+        top: 36%;
+    }
+}
+@media (max-width: 813px) {
+    .carousel-caption {
+        top: 42%;
+    }
+}
+@media (max-width: 900px) {
+    .fa {
+        font-size:20px;
+        padding: 10px;
     }
 }
